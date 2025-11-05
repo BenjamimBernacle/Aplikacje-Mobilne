@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5DC"
+    android:padding="10dp">
+
+    <!-- Tytuł gry -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gra w kości. Autor [numer zdającego]"
+        android:textColor="#FFFFFF"
+        android:background="#A52A2A"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Przycisk RZUĆ KOŚĆMI -->
+    <Button
+        android:id="@+id/rollButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RZUĆ KOŚĆMI"
+        android:background="#D2691E"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Rozkład horyzontalny dla pięciu obrazów -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/diceImage1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:src="@drawable/question"
+            app:srcCompat="@drawable/question" />
+
+        <ImageView
+            android:id="@+id/diceImage2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/question"
+            android:layout_margin="9dp" />
+
+        <ImageView
+            android:id="@+id/diceImage3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/question"
+            android:layout_margin="9dp" />
+
+        <ImageView
+            android:id="@+id/diceImage4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/question"
+            android:layout_margin="9dp" />
+
+        <ImageView
+            android:id="@+id/diceImage5"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:src="@drawable/question"
+            android:layout_margin="9dp" />
+    </LinearLayout>
+
+    <!-- Wynik tego losowania -->
+    <TextView
+        android:id="@+id/rollResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik tego losowania: 0"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Wynik gry -->
+    <TextView
+        android:id="@+id/gameResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik gry: 0"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- Przycisk RESETUJ WYNIK -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESETUJ WYNIK"
+        android:background="#D2691E"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>
