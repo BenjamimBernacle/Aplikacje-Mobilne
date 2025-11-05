@@ -1,4 +1,4 @@
-package com.example.aplikacja
+package com.example.LiczbaPolubien
 
 import org.junit.Test
 

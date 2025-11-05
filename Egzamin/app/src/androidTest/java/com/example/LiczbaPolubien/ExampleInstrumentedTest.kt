@@ -1,4 +1,4 @@
-package com.example.egzamin
+package com.example.LiczbaPolubien
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

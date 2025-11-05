@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.egzamin"
+    namespace = "com.example.LiczbaPolubien"
     compileSdk = 36
 
     defaultConfig {
