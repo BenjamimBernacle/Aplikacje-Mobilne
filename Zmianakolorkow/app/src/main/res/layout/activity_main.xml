@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/zmiana_kolorku"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:background="#2196F3"
+        android:backgroundTint="#2196F3"
+        android:text="@string/Kolor"
+        app:layout_constraintBottom_toTopOf="@+id/kolorek"
+        app:layout_constraintEnd_toStartOf="@+id/zmiana_rozmiaru"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <TextView
+        android:id="@+id/zmiana_rozmiaru"
+        android:layout_width="68dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="56dp"
+        android:background="#E9BA77"
+        android:text="Rozmiar"
+        app:layout_constraintEnd_toStartOf="@+id/ilosc_zmiany_kolorku"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ilosc_zmiany_kolorku"
+        android:layout_width="82dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="32dp"
+        android:text="Ilosc zmiany kolorku"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ilosc_zmiany_rozmiaru"
+        android:layout_width="87dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="28dp"
+        android:text="Ilosc zmiany rozmiaru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kolorek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="212dp"
+        android:background="#1CA5E2"
+        android:backgroundTint="#1E8BBD"
+        android:text="Zmiana kolorku"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rozmiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="28dp"
+        android:background="#BF1616"
+        android:backgroundTint="#420808"
+        android:text="Zmiana Rozmiaru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="321dp"
+        android:layout_height="425dp"
+        android:layout_marginTop="288dp"
+        android:contentDescription="kromka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

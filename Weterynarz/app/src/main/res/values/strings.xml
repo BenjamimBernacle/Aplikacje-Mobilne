@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Weterynarz</string>
+    <string name="tytul">Wizyta u Weterynarza</string>
+    <string name="wlasciciel">imie i nazwisko wlasciciela</string>
+    <string name="gatunek">gatunek</string>
+    <string name="Lata">Ile ma lat?</string>
+    <string name="cel">cel wizyty</string>
+    <string name="czas">16:00</string>
+    <string name="ok">ok</string>
+    <string name="kot">kot</string>
+    <string name="pies">pies</string>
+    <string name="swinia">swinia morska</string>
+    <string name="wizyta">Wizyta</string>
+
+</resources>

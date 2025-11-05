@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Zmiana kolorkow</string>
+    <string name="Kolor">KOLOREK</string>
+    <string name="licznikkolorkow">Ilosc zmiany kolorku:</string>
+</resources>

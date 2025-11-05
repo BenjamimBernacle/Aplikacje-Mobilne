@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="przycisk1">Polub</string>
+    <string name="przycisk2">Usun</string>
+    <string name="przycisk3">Zapisz</string>
+    <string name="opis">obraz</string>
+    <string name="domek">Domek w górach</string>
+    <string name="opis_strony">Odwiedź komfortowy domek w Sudetach, blisko do szlaków turystycznych</string>
+    <string name="polubienia">Polubien 0</string>
+    <string name="opisstrony">opis</string>
+    <string name="likes_text">Polubienia %1$d</string><!--%1$d czyli 1 argument zamieniony na int
+                                                          %2$s czyli 2 argument zmieniony na string-->
+
+</resources>

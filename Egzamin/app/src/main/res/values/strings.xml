@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Egzamin</string>
+    <string name="Usun">Usuń</string>
+    <string name="Polub">Polub</string>
+    <string name="Zapisz">Zapisz</string>
+    <string name="Zdiecie">Zdjecie</string>
+    <string name="Polubienia">0 Polubien</string>
+
+</resources>

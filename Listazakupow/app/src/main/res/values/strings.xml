@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lista zakupow</string>
+    <string name="DodajButton">Dodaj</string>
+    <string name="Element">Nowy Element</string>
+    <string name="pierwszyElementListy">Zakupy: chleb, maslo, ser</string>
+    <string name="drugiElementListy">Do zrobienia: obiad, umyc podlogi</string>
+    <string name="trzeciElementListy">weekend: kino, spacer z psem</string>
+
+</resources>

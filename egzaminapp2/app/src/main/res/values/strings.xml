@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">egzaminapp2</string>
+    <string name="rozmiar">Rozmiar:</string>
+    <string name="Czcionka">Właściwości Czcionki</string>
+    <string name="Dziubki">>></string>
+    <string name="przywitanie">Dzień dobry</string>
+    <string name="hello_pl">Dzień dobry</string>
+    <string name="hello_en">Good Morning</string>
+    <string name="hello_es">Buenos Dias</string>
+    <string name="rozmiar_label">Rozmiar: %1$d</string>
+</resources>
